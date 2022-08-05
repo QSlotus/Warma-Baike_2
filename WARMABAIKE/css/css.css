@@ -56,6 +56,14 @@ a
 {
     text-decoration: none;
 }
+p
+{
+    font-weight: lighter;
+}
+ul
+{
+    font-weight: lighter;
+}
 abbr
 {
     text-decoration: none;
@@ -72,6 +80,14 @@ div
     width: 270px;
     display: inline-block;
     text-align: center;
+}
+.pic
+{
+    width: 270px;
+    height: 270px;
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
 }
 /*萌娘黑幕开始*/
 .heimu, .heimu a, a .heimu, .heimu a.new                
