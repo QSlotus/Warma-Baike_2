@@ -2,3 +2,73 @@
 {
     background-color: aliceblue;
 }
+.size
+{
+    width: 1000px;
+    background-color: rgba(250, 245, 245,3);
+}
+.text
+{
+    width: 600px;
+    float: left;
+}
+div.imgcard         /*卡片效果*/
+{
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+    float: right;
+}
+div.container       /*卡片效果*/
+{
+    padding: 20px;
+}
+table               /*表格设置*/
+{
+    width: 400px;
+    text-align: center;
+    margin-right: 0 auto;
+    background-color: #e1d8d8;
+}
+caption
+{
+    color: black;
+    font-size: large;
+}
+.hmm               /*位置设置*/
+{
+    float: right;
+}
+body
+{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: Microsoft YaHei;
+}
+a
+{
+    text-decoration: none;
+}
+.heimu, .heimu a, a .heimu, .heimu a.new                /*萌娘黑幕开始*/
+{
+    background-color: #252525;
+    color: #252525;
+    text-shadow: none;
+}
+.heimu:hover, .heimu:active,
+.heimu:hover .heimu, .heimu:active .heimu 
+{
+    color: white !important;
+}
+.heimu:hover a, a:hover .heimu,
+.heimu:active a, a:active .heimu 
+{
+    color: lightblue !important;
+}
+.heimu:hover .new, .heimu .new:hover, .new:hover .heimu,
+.heimu:active .new, .heimu .new:active, .new:active .heimu 
+{
+    color: #BA0000 !important;
+}                                                       /*萌娘黑幕结束*/
+
