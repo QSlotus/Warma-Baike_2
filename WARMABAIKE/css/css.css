@@ -4,13 +4,14 @@
 }
 .size
 {
-    width: 1000px;
+    width: 1060px;
     background-color: rgba(250, 245, 245,3);
 }
 .text
 {
     width: 600px;
     float: left;
+    margin-right: 5px;
 }
 div.imgcard         /*卡片效果*/
 {
@@ -32,12 +33,7 @@ table               /*表格设置*/
 }
 caption
 {
-    color: black;
     font-size: large;
-}
-.hmm               /*位置设置*/
-{
-    float: right;
 }
 body
 {
@@ -50,7 +46,25 @@ a
 {
     text-decoration: none;
 }
-.heimu, .heimu a, a .heimu, .heimu a.new                /*萌娘黑幕开始*/
+abbr
+{
+    text-decoration: none;
+}
+div
+{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 1px;
+}
+.down
+{
+    width: 320px;
+    display: inline-block;
+    text-align: center;
+}
+/*萌娘黑幕开始*/
+.heimu, .heimu a, a .heimu, .heimu a.new                
 {
     background-color: #252525;
     color: #252525;
@@ -70,5 +84,6 @@ a
 .heimu:active .new, .heimu .new:active, .new:active .heimu 
 {
     color: #BA0000 !important;
-}                                                       /*萌娘黑幕结束*/
+}                                                       
+/*萌娘黑幕结束*/
 
