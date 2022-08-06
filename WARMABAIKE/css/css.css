@@ -89,6 +89,13 @@ div
     text-align: center;
     margin-top: 10px;
 }
+.menu
+{
+    width: 200px;
+    background-color: rgba(250, 245, 245,3);
+    float: right;
+    display: inline;
+}
 /*萌娘黑幕开始*/
 .heimu, .heimu a, a .heimu, .heimu a.new                
 {
