@@ -34,12 +34,18 @@ div.container       /*卡片效果*/
 {
     padding: 20px;
 }
-table               /*表格设置*/
+.introduce              /*表格设置*/
 {
     width: 380px;
     text-align: center;
     margin-right: 0 auto;
     background-color: #e1d8d8;
+}
+.videos
+{
+    text-align: center;
+    margin-right: auto;
+    width: 900px;
 }
 caption
 {
@@ -74,6 +80,10 @@ div
     padding-top: 10px;
     padding-bottom: 5px;
     padding-right: 10px;
+}
+summary
+{
+    background-color: pink;
 }
 .down
 {
