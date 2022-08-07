@@ -21,6 +21,13 @@
 {
     width: 540px;
     margin-right: 5px;
+    float: left;
+}
+.textcft
+{
+    width: 480px;
+    margin-right: 5px;
+    float: left;
 }
 div.imgcard         /*卡片效果*/
 {
