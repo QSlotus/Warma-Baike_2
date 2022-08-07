@@ -19,8 +19,7 @@
 }
 .textcf
 {
-    width: 480px;
-    float: left;
+    width: 540px;
     margin-right: 5px;
 }
 div.imgcard         /*卡片效果*/
@@ -62,14 +61,6 @@ a
 {
     text-decoration: none;
 }
-p
-{
-    font-weight: lighter;
-}
-ul
-{
-    font-weight: lighter;
-}
 abbr
 {
     text-decoration: none;
@@ -81,9 +72,13 @@ div
     padding-bottom: 5px;
     padding-right: 10px;
 }
-summary
+details
 {
-    background-color: pink;
+    background-color: antiquewhite;
+}
+rt
+{
+    font-size: 10px;
 }
 .down
 {
@@ -95,9 +90,17 @@ summary
 {
     width: 270px;
     height: 270px;
-    background-color: white;
+    background-color:antiquewhite;
     text-align: center;
     margin-top: 10px;
+    display: inline-block;
+}
+.flat
+{
+    width: 270px;
+    height: 140px;
+    background-color: antiquewhite;
+    text-align: center;
 }
 .menu
 {
